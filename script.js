@@ -7,7 +7,7 @@ window.addEventListener('keypress',(e)=>{
 let songFail = new Audio("Audio/failure.mp3")
 let songGradeE = new Audio("Audio/fail.mp3")
 let songGradeD = new Audio("Audio/Average.mp3")
-let songGradeC = new Audio("Audio/Credit.mp3")
+let songGradeC = new Audio("Audio/credit.mp3")
 let songGradeB = new Audio("Audio/Good.wav")
 let songGradeA = new Audio("Audio/Excellence.wav")
 
