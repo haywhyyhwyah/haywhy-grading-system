@@ -4,14 +4,15 @@ window.addEventListener('keypress',(e)=>{
     }
 })
 
-let songFail = new Audio("audio/Fail.mp3.mp3")
-let songGradeE = new Audio("audio/E_grade.mp3.mp3")
-let songGradeD = new Audio("audio/D_grade.mp3.mp3")
-let songGradeC = new Audio("audio/C_grade.mp3.mp3")
-let songGradeB = new Audio("audio/B_grade.mp3.wav")
-let songGradeA = new Audio("audio/A_grade.mp3.wav")
 
 function checkGrade() {
+    let songFail = new Audio("audio/Fail.mp3.mp3")
+    let songGradeE = new Audio("audio/E_grade.mp3.mp3")
+    let songGradeD = new Audio("audio/D_grade.mp3.mp3")
+    let songGradeC = new Audio("audio/C_grade.mp3.mp3")
+    let songGradeB = new Audio("audio/B_grade.mp3.wav")
+    let songGradeA = new Audio("audio/A_grade.mp3.wav")
+    
     if (scoreInput.value >= 0 && scoreInput.value < 40) {
         show.innerHTML = 'F - Fail💀'
         songFail.play()
