@@ -31,8 +31,24 @@ function checkGrade() {
         show.innerHTML = 'A - Excellent👍'
         songGradeA.play()
     }else if (scoreInput.value > 100) {
-        show.innerHTML = 'Invalid input'
+        show.innerHTML = 'Invalid input❗'
     }else if (scoreInput.value < 0) {
-        show.innerHTML = 'Invalid input'
+        show.innerHTML = 'Invalid input❗'
     }
 }
+
+
+
+// let food = 'Rice and Eran'
+// let drink = 'Hollandia'
+// let animal = 'Beef'
+// let restaurant = true;
+
+
+// if(restaurant == true) {
+//     if(food == 'Rice and Eran' && drink == 'Hollandia' && animal == 'Chicken') {
+//         console.log('Buy 4 plates');
+//     }
+// } else {
+//     console.log('Haywhy will starve');
+// }
