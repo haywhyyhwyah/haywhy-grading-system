@@ -1,8 +1,8 @@
-window.addEventListener('keypress',(e)=>{
-    if(e.key === 'Enter') {
-        checkGrade()
-    }
-})
+// window.addEventListener('keypress',(e)=>{
+//     if(e.key === 'Enter') {
+//         checkGrade()
+//     }
+// })
 
 let songFail = new Audio("Audio/failure.mp3")
 let songGradeE = new Audio("Audio/fail.mp3")
@@ -39,22 +39,6 @@ function checkGrade() {
             show.innerHTML = 'Invalid input❗'
         }else if ( scoreInput.value === '') {
             show.innerHTML = 'Enter a Score'
-        }
+        }p
     }
 }
-
-
-
-// let food = 'Rice and Eran'
-// let drink = 'Hollandia'
-// let animal = 'Beef'
-// let restaurant = true;
-
-
-// if(restaurant == true) {
-//     if(food == 'Rice and Eran' && drink == 'Hollandia' && animal == 'Chicken') {
-//         console.log('Buy 4 plates');
-//     }
-// } else {
-//     console.log('Haywhy will starve');
-// }
