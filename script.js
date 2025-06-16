@@ -37,8 +37,6 @@ function checkGrade() {
             show.innerHTML = 'Invalid input❗'
         }else if (scoreInput.value < 0) {
             show.innerHTML = 'Invalid input❗'
-        }else if ( scoreInput.value === '') {
-            show.innerHTML = 'Enter a Score'
         }
     }
 }
